@@ -1,46 +1,46 @@
 {
-  "name": "package-user-agent",
-  "version": "1.0.0",
-  "description": "Get a User-Agent header object based on the package.json",
-  "scripts": {
-    "test": "ava && tsd",
-    "lint": "eslint ."
-  },
+	"name": "package-user-agent",
+	"version": "1.0.0",
+	"description": "Get a User-Agent header object based on the package.json",
+	"scripts": {
+		"test": "ava && tsd",
+		"lint": "eslint ."
+	},
 	"files": [
-    "index.js",
-    "index.d.ts"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/knutkirkhorn/package-user-agent.git"
-  },
-  "keywords": [
-    "user-agent",
-    "user",
-    "agent",
-    "package"
-  ],
-  "author": "Knut Kirkhorn",
-  "type": "module",
+		"index.js",
+		"index.d.ts"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/knutkirkhorn/package-user-agent.git"
+	},
+	"keywords": [
+		"user-agent",
+		"user",
+		"agent",
+		"package"
+	],
+	"author": "Knut Kirkhorn",
+	"type": "module",
 	"exports": "./index.js",
 	"types": "./index.d.ts",
 	"engines": {
 		"node": ">=14.16"
 	},
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/knutkirkhorn/package-user-agent/issues"
-  },
-  "homepage": "https://github.com/knutkirkhorn/package-user-agent#readme",
-  "dependencies": {
-    "read-pkg": "^7.1.0"
-  },
-  "devDependencies": {
-    "ava": "^5.1.1",
-    "eslint": "^8.32.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-unicorn": "^45.0.2",
-    "tsd": "^0.25.0"
-  }
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/knutkirkhorn/package-user-agent/issues"
+	},
+	"homepage": "https://github.com/knutkirkhorn/package-user-agent#readme",
+	"dependencies": {
+		"read-pkg": "^7.1.0"
+	},
+	"devDependencies": {
+		"ava": "^5.1.1",
+		"eslint": "^8.32.0",
+		"eslint-config-airbnb-base": "^15.0.0",
+		"eslint-plugin-import": "^2.27.5",
+		"eslint-plugin-unicorn": "^45.0.2",
+		"tsd": "^0.25.0"
+	}
 }
