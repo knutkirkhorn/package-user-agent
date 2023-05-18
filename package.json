@@ -1,6 +1,6 @@
 {
 	"name": "package-user-agent",
-	"version": "1.0.1",
+	"version": "2.0.0",
 	"description": "Get a User-Agent header object based on the package.json",
 	"scripts": {
 		"test": "ava && tsd",
